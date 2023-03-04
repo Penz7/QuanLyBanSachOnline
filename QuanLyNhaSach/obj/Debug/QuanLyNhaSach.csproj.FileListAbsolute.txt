@@ -65,5 +65,4 @@ C:\Users\AN515\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach
 C:\Users\AN515\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.CopyComplete
 C:\Users\AN515\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.exe
 C:\Users\AN515\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.pdb
-C:\Users\Admin\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.LoginForm.resources
-C:\Users\Admin\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.Staff.resources
+C:\Users\AN515\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.LoginFormEmployee.resources

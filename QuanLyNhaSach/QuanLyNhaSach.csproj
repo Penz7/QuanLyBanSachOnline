@@ -90,6 +90,12 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginFormEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginFormEmployee.Designer.cs">
+      <DependentUpon>LoginFormEmployee.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Staff.cs">
@@ -113,6 +119,9 @@
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginFormEmployee.resx">
+      <DependentUpon>LoginFormEmployee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -121,6 +130,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Staff.resx">
       <DependentUpon>Staff.cs</DependentUpon>
@@ -140,6 +150,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anime2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anime3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\anime3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\close.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
