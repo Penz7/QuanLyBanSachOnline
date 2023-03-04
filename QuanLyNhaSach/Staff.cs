@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ComponentFactory.Krypton.Toolkit;
 
 namespace QuanLyNhaSach
 {
-    public partial class Staff : Form
+    public partial class Staff : KryptonForm
     {
         public Staff()
         {
