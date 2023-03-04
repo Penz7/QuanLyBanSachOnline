@@ -12,13 +12,14 @@ using ComponentFactory.Krypton.Toolkit;
 
 namespace QuanLyNhaSach
 {
-    public partial class LoginForm : KryptonForm
+    public partial class LoginFormEmployee : KryptonForm
     {
-        public LoginForm()
+        public LoginFormEmployee()
         {
             InitializeComponent();
         }
 
+     
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string connectionString = "Server=LAPTOP-62H0EBDL;Database=db_NhaSach; Integrated Security = true;";
@@ -41,7 +42,7 @@ namespace QuanLyNhaSach
                     string password = txtPassword.Text;
 
                     // Thực hiện truy vấn đến cơ sở dữ liệu để kiểm tra đăng nhập
-                    string query = "SELECT * FROM Khach WHERE username=@username AND password=@password";
+                    string query = "SELECT * FROM NhanVien WHERE username=@username AND password=@password";
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@username", username);
                     command.Parameters.AddWithValue("@password", password);
@@ -77,6 +78,11 @@ namespace QuanLyNhaSach
             }
 
 
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
         }
     }
 }
