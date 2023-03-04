@@ -19,7 +19,7 @@ namespace QuanLyNhaSach.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,9 +63,9 @@ namespace QuanLyNhaSach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap anime {
+        internal static System.Drawing.Bitmap arr_right {
             get {
-                object obj = ResourceManager.GetObject("anime", resourceCulture);
+                object obj = ResourceManager.GetObject("arr-right", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace QuanLyNhaSach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap anime2 {
+        internal static System.Drawing.Bitmap left_arrow {
             get {
-                object obj = ResourceManager.GetObject("anime2", resourceCulture);
+                object obj = ResourceManager.GetObject("left-arrow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace QuanLyNhaSach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap anime3 {
+        internal static System.Drawing.Bitmap MaleUser {
             get {
-                object obj = ResourceManager.GetObject("anime3", resourceCulture);
+                object obj = ResourceManager.GetObject("MaleUser", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,19 +93,9 @@ namespace QuanLyNhaSach.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap anime31 {
+        internal static System.Drawing.Bitmap search_icon {
             get {
-                object obj = ResourceManager.GetObject("anime31", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap close {
-            get {
-                object obj = ResourceManager.GetObject("close", resourceCulture);
+                object obj = ResourceManager.GetObject("search-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
