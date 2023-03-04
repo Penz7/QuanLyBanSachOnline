@@ -37,6 +37,7 @@ namespace QuanLyNhaSach
             this.lbUsername = new System.Windows.Forms.Label();
             this.picUser = new System.Windows.Forms.PictureBox();
             this.kryptonPalette1 = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUser)).BeginInit();
@@ -105,12 +106,22 @@ namespace QuanLyNhaSach
             this.kryptonPalette1.FormStyles.FormMain.StateCommon.Border.Rounding = 20;
             this.kryptonPalette1.FormStyles.FormMain.StateCommon.Border.Width = 1;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(344, 209);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Staff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(951, 577);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Staff";
@@ -134,5 +145,6 @@ namespace QuanLyNhaSach
         private System.Windows.Forms.Label lbUsername;
         private System.Windows.Forms.PictureBox picUser;
         private ComponentFactory.Krypton.Toolkit.KryptonPalette kryptonPalette1;
+        private System.Windows.Forms.Button button1;
     }
 }
