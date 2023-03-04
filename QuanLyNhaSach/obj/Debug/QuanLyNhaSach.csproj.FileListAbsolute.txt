@@ -47,3 +47,6 @@ C:\Users\Admin\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach
 C:\Users\Admin\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.CopyComplete
 C:\Users\Admin\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.exe
 C:\Users\Admin\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.pdb
+C:\Users\admin\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.FormCustomer.resources
+C:\Users\admin\Desktop\QuanLyBanSachOnline\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.Staff.resources
